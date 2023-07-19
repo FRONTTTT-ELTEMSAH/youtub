@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Roboto+Mono:wght@100;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira:wght@700&display=swap');
+*{
+    padding-inline-start: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #fff;
+  
+}
+html{
+    font-size: 10px;
+}
+/* header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 50px;
+}
+header .left{
+    display: flex;
+    align-items: center;
+}
+header .left img{
+    width: 40%;
+    margin: 10px;
+}
+header .left img:hover{
+    cursor: pointer;
+}
+header .left a{
+    text-decoration: none;
+}
+header .left a i{
+    color: black;
+    font-size: 25px;
+}
+header .mid{
+    display: flex;
+    
+}
+header .mid input{
+    width: 350px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid gray;
+    outline: none;
+    border-right: none;
+}
+header .mid .btn{
+    border: none;
+    /* border: 1px solid gray;
+    border-left: none; */
+    /* margin-top: px;
+    font-size: 20px;
+    padding-bottom: 8px;
+    border: 1px solid gray;
+    border-left: none;
+    margin-top: 15px; */
+/* } */ 
+
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 56px;
+    padding: 0 16px;
+    
+}
+.left{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.left img{
+    width: 46%;
+    padding-left: 16px;
+}
+.mid{
+    display: flex;
+    align-items: center;
+    margin-right: 9%;
+}
+.mid form{
+    display: flex;
+    height:  40px;
+    width: 628px;
+    
+}
+.mid form input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px 0 0 2px;
+    padding: 12px;
+    font-size: 1.6rem;
+    border: 1px solid #d3d3d3;
+    border-right: none;
+    outline: none;
+}
+.mid .btn{
+    width: 64px;
+    border: 1px solid #d3d3d3;
+    border: 0 2px 2px 0;
+    background-color:#f8f8f8 ;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.mid .btn :hover{
+    background-color:#f0f0f0 ;
+}
+
+.mid #mic{
+    width: 40px;
+    height: 40px;
+    background-color:#f9f9f9 ;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.right a {
+    padding-right: 18px;
+}
+.menu-area{
+    height: calc(100vh - 56px);
+    display: flex;
+    background-color: #f9f9f9;
+}
+.nav-side{
+    height: 100%;
+    width: 280px;
+    background-color: white;
+    overflow-y: auto;
+}
+.menu-area .nav-side nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    padding-right: 15px;
+}
+.menu-area .nav-side nav .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    color: black;
+}
+.menu-area .nav-side nav .nav-link :hover{
+    background-color: rgb(0, 0, 0,0.05);
+}
+.nav-link span{
+    margin-left: 24px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color: #030303;
+}
+.active{
+    background-color: #e5e5e5;
+}
+.active-span{
+    font-weight: 500;
+}
+hr{
+    height: 1px;
+    background-color: #e5e5e5;
+    border: none;
+    margin: 10px;
+}
+nav p{
+    font-size: 1.4rem;
+    color: #606060;
+    font-weight: 500;
+    padding: 8px 16px;
+    text-transform: uppercase;
+
+}
+.channel{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+    
+
+
